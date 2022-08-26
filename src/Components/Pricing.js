@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="bg-[#A5F3FC]/[.2] pt-10">
+    <div className="bg-[#A5F3FC]/[.2] pt-10 mx-auto max-w-[88rem]">
       <div className="flex flex-col justify-center items-center md:pt-10">
         <h1 className=" text-6xl font-extrabold text-[#1F2937] font-mulish text-center md:text-8xl px-4">
           SIMPLE PRICING
@@ -21,7 +21,7 @@ const Pricing = () => {
           </button>
         </div>
       </div>
-      <div className="w-full flex justify-center pt-20 pl-32 pr-32 pb-20 flex-wrap">
+      <div className="w-full flex justify-center pt-20 pl-32 pr-32 pb-20 flex-wrap mx-auto max-w-[88rem]">
         <div className="flex  flex-col justify-center items-center p-8 ">
           <p className="pt-6 text-base">All limited links</p>
           <p className="pt-6 text-base">Own analytics platform</p>
@@ -87,7 +87,7 @@ const Pricing = () => {
           </button>
         </div>
       </div>
-      <div className="w-100 bg-[#F4F4F5] mt-12 pb-20">
+      <div className="w-100 bg-[#F4F4F5] mt-12 pb-20 mx-auto max-w-[88rem]">
         <h1 className="text-center font-bold text-3xl md:font-black pt-12 md:5xl">
           Frequently asked questions
         </h1>
@@ -156,7 +156,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-      <div className="w-full bg-gradient-to-r from-[#0050b9] to-[#0284C7] text-center p-16">
+      <div className="w-full bg-gradient-to-r from-[#0050b9] to-[#0284C7] text-center p-16 mx-auto max-w-[88rem]">
         <h1 className="text-center text-extrabold text-5xl font-black text-[#FFFFFF]">
           Get results, no matter what
         </h1>

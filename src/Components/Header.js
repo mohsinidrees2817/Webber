@@ -7,8 +7,8 @@ const Header = () => {
   }
   return (
     <nav>
-      <div className="bg-[#A5F3FC]/[.2]  w-full h-[11rem]">
-        <header className="flex justify-between  mx-10 py-8 relative">
+      <div className="bg-[#A5F3FC]/[.2]  w-full h-[11rem] " >
+        <header className="flex justify-between  py-8  relative mx-auto max-w-7xl">
           <img
             src="./images/Logo.svg"
             alt="img here"

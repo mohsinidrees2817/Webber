@@ -18,7 +18,7 @@ const CaseStudies = () => {
             <p className='mr-2 text-[#52525B] cursor-pointer'>Type: All <img src= './images/Icon.svg' alt="icon" className='inline' /></p>
     </div>
     </div>
-    <div className='mt-24 pb-24'>
+    <div className='mt-24 pb-24 mx-auto max-w-[88rem]'>
     <div className='flex justify-center gap-16 flex-wrap '>
         <div className='mt-24 px-8'>
         <img src='./images/Cover1.png'/>

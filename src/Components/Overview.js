@@ -14,7 +14,7 @@ const Overview = () => {
           Learn More
         </button>
       </div>
-      <div className="flex justify-center items-center mt-20 flex-col">
+      <div className="flex justify-center items-center mt-20 flex-col mx-auto max-w-[88rem]">
         <div className=" w-4/5 h-48 bg-gradient-to-r from-[#06B6D4] to-[#0284C7]"></div>
         <div className=" w-3/5 h-[20rem] bg-white -mt-28 rounded-lg relative border-slate-300 border-2 flex flex-col md:h-[32rem]">
           <div className="flex justify-start items-center mt-2">
@@ -30,7 +30,7 @@ const Overview = () => {
           <div></div>
         </div>
       </div>
-      <div className="">
+      <div className=" mx-auto max-w-[88rem]">
         <h1 className="text-center text-bold text-5xl font-black mt-40 md:text-6xl md:font-extrabold">
           Tailor-made features
         </h1>
@@ -60,7 +60,7 @@ const Overview = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-8 px-auto mt-8 flex-col md:flex-row">
+        <div className="flex justify-center items-center gap-8 px-auto mt-8 flex-col md:flex-row ">
           <div className="flex justify-center items-center flex-col">
             <img src="./images/01.png" alt="logo" />
             <h3 className="font-semibold mt-4">Robust workflow</h3>
@@ -87,7 +87,7 @@ const Overview = () => {
           </div>
         </div>
       </div>
-      <div className=" px-4   md:px-16 ">
+      <div className=" px-4   md:px-16 mx-auto max-w-[88rem]">
         <h1 className="text-center text-extrabold text-5xl font-black mt-40 md:text-7xl">
           How it works
         </h1>
@@ -126,7 +126,7 @@ const Overview = () => {
           
         </div>
       </div>
-      <div className="w-full bg-gradient-to-r from-[#0050b9] to-[#0284C7] mt-40 flex flex-col justify-center items-center md:flex-row lg:items-end py-8 gap-8 px-8 lg:justify-end">
+      <div className="w-full bg-gradient-to-r from-[#0050b9] to-[#0284C7] mt-40 flex flex-col justify-center items-center md:flex-row lg:items-end py-8 gap-8 px-8 lg:justify-end mx-auto max-w-[88rem]">
         <div className="flex justify-center items-center flex-col md:flex-row">
           <div className="p-2">
             <img src="./images/picture.png" alt="" />
@@ -170,7 +170,7 @@ const Overview = () => {
           <img src="./images/Google.png" alt="" />
         </div>
       </div>
-      <div className="w-full h-80 bg-gradient-to-r from-[#0050b9] to-[#0284C7] mt-40">
+      <div className="w-full h-80 bg-gradient-to-r from-[#0050b9] to-[#0284C7] mt-40 mx-auto max-w-[88rem]">
         <h1 className="text-center text-extrabold text-5xl font-black text-[#FFFFFF] pt-16">
           By the numbers
         </h1>

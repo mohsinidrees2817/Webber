@@ -2,7 +2,7 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <div className="bg-[#A5F3FC]/[.2]">
+    <div className="bg-[#A5F3FC]/[.2] mx-auto max-w-[88rem]">
       <div className="flex justify-center items-center flex-col md:flex-row">
         <div className=" md:w-3/4 flex flex-col justify-center items-center md:items-start relative text-[#27272A] px-8 md:ml-8">
           <p>Kanban Software</p>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-[#F4F4F5] py-8 flex justify-center items-center gap-24 flex-col-reverse md:flex-row flex-wrap'>
+    <div className='w-full bg-[#F4F4F5] py-8 flex justify-center items-center gap-24 flex-col-reverse md:flex-row flex-wrap mx-auto max-w-[88rem]'>
         <div className='flex justify-center flex-col items-center md:items-start lg:w-1/4'>
             <img src="./images/Logo.svg" alt="" />
             <p className='pt-8'>Copyright © 2021 WEBBER.</p>
