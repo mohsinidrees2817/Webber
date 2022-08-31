@@ -10,9 +10,6 @@ const Header = () => {
      )
   },[]
 )
-
-
-  console.log(showmenu);
   return (
     <nav>
       <div className="bg-[#A5F3FC]/[.2]  w-full h-[11rem]">
@@ -24,7 +21,7 @@ const Header = () => {
           />
           
             <ul  className={`flex items-center  flex-col cursor-pointer absolute font-normal md:w-auto w-full sm:static sm:block mt-20  sm:mt-4
-             bg-[#1F2937] p-4  text-white sm:w-auto sm:bg-transparent duration-300 ease-linear ${ !showmenu ? 'right-[-100%]' : 'right-0'}`}>
+             bg-[#1F2937] p-4  text-white sm:w-auto sm:bg-transparent duration-300 ease-linear ${ !showmenu ? 'right-[-100%]' : 'right-0'}`} onClick={()=>setShowmenu(!showmenu)}>
               <NavLink to="/" className=" hover:border-b-2 pb-2 border-black">
                 <li className=" sm:inline m-3 sm:text-[#18181B]  font-mulish ">
                   Overview
@@ -60,7 +57,12 @@ const Header = () => {
           <img
             src="./images/menu.png" alt=""
             onClick={()=>setShowmenu(!showmenu)}
-            className="sm:hidden w-12 h-12"
+            className={`sm:hidden w-12 h-12  ${ !showmenu ? 'block' : 'hidden'}`}
+          />
+          <img
+            src="./images/Cut.png" alt=""
+            onClick={()=>setShowmenu(!showmenu)}
+            className={`sm:hidden w-6 h-6 mt-4  ${ !showmenu ? 'hidden' : 'block'}`}
           />
           <button className="w-20 h-10 text-[#0E7490]  font-mulish bg-[#CFFAFE] rounded hidden sm:block">
             Sign In
