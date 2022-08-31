@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [showmenu, setShowmenu] = useState(window.innerWidth>640);
+
   useEffect(()=>{
     window.addEventListener('resize',()=>{
        setShowmenu(window.innerWidth>640);
@@ -64,7 +65,7 @@ const Header = () => {
             onClick={()=>setShowmenu(!showmenu)}
             className={`sm:hidden w-6 h-6 mt-4  ${ !showmenu ? 'hidden' : 'block'}`}
           />
-          <button className="w-20 h-10 text-[#0E7490]  font-mulish bg-[#CFFAFE] rounded hidden sm:block">
+          <button className="w-20 h-10 text-[#0E7490]  font-mulish bg-[#CFFAFE] rounded hidden sm:block" >
             Sign In
           </button>
         </header>
